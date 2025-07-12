@@ -1,0 +1,599 @@
+<svg version="1.1" width="600" height="360" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+  <!--根节点-->
+  <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M295,2 A15,15 0 0,0 295,32" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M315,2 A15,15 0 0,1 315,32" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="295" y1="2" 
+        x2="315" y2="2"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="295" y1="32" 
+        x2="315" y2="32" 
+        stroke="black"    
+        stroke-width="2"/>
+			
+	
+	<!--节点1-->
+	 <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M50,80 A10,10 0 0,0 50,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M70,80 A10,10 0 0,1 70,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="50" y1="80" 
+        x2="70" y2="80"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="50" y1="100" 
+        x2="70" y2="100" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+		
+		<!--节点2-->
+	 <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M140,80 A10,10 0 0,0 140,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M160,80 A10,10 0 0,1 160,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="140" y1="80" 
+        x2="160" y2="80"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="140" y1="100" 
+        x2="160" y2="100" 
+        stroke="black"    
+        stroke-width="2"/>
+	
+  
+    	<!--节点3-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M255,80 A10,10 0 0,0 255,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M275,80 A10,10 0 0,1 275,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="255" y1="80" 
+        x2="275" y2="80"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="255" y1="100" 
+        x2="275" y2="100" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+		
+	<!--节点4-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M390,80 A10,10 0 0,0 390,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M420,80 A10,10 0 0,1 420,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="390" y1="80" 
+        x2="420" y2="80"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="390" y1="100" 
+        x2="420" y2="100" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+		
+	<!--节点5-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M530,80 A10,10 0 0,0 530,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M550,80 A10,10 0 0,1 550,100" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="530" y1="80" 
+        x2="550" y2="80"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="530" y1="100" 
+        x2="550" y2="100" 
+        stroke="black"    
+        stroke-width="2"/>
+	
+	
+	<!--矩形1-->
+	<rect 
+       x="40" y="150"        
+       width="40"  height="30"  
+       stroke="black"
+	   fill="none"
+       stroke-width="2"/>
+	   
+	   
+	<!--矩形2-->
+	<rect 
+       x="120" y="150"        
+       width="60"  height="30"  
+       stroke="black"
+	   fill="none"
+       stroke-width="2"/>
+	   
+	   
+	<!--矩形3-->
+	<rect 
+       x="205" y="150"        
+       width="50"  height="30"  
+       stroke="black"
+	   fill="none"
+       stroke-width="2"/>
+	   
+	 
+	<!--矩形4-->
+	<rect 
+       x="275" y="150"        
+       width="50"  height="30"  
+       stroke="black"
+	   fill="none"
+       stroke-width="2"/>
+	   
+    
+	<!--节点6-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M365,150 A15,15 0 0,0 365,180" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M385,150 A15,15 0 0,1 385,180" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="365" y1="150" 
+        x2="385" y2="150"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="365" y1="180" 
+        x2="385" y2="180" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+		
+    
+	<!--节点7-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M430,150 A15,15 0 0,0 430,180" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M450,150 A15,15 0 0,1 450,180" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="430" y1="150" 
+        x2="450" y2="150"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="430" y1="180" 
+        x2="450" y2="180" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+		
+		<!--节点8-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M525,150 A15,15 0 0,0 525,180" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M555,150 A15,15 0 0,1 555,180" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="525" y1="150" 
+        x2="555" y2="150"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="525" y1="180" 
+        x2="555" y2="180" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--节点9-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M365,230 A15,15 0 0,0 365,260" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M385,230 A15,15 0 0,1 385,260" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="365" y1="230" 
+        x2="385" y2="230"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="365" y1="260" 
+        x2="385" y2="260" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--矩形5-->
+	<rect 
+       x="415" y="230"        
+       width="50"  height="30"  
+       stroke="black"
+	   fill="none"
+       stroke-width="2"/>
+	   
+	   
+	<!--节点10-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M500,230 A15,15 0 0,0 500,260" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M520,230 A15,15 0 0,1 520,260" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="500" y1="230" 
+        x2="520" y2="230"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="500" y1="260" 
+        x2="520" y2="260" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+			
+	<!--矩形6-->
+	<rect 
+       x="549" y="230"        
+       width="50"  height="30"  
+       stroke="black"
+	   fill="none"
+       stroke-width="2"/>	
+	
+		<!--节点11-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M500,230 A15,15 0 0,0 500,260" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M520,230 A15,15 0 0,1 520,260" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="500" y1="230" 
+        x2="520" y2="230"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="500" y1="260" 
+        x2="520" y2="260" 
+        stroke="black"    
+        stroke-width="2"/>-->
+		
+		
+		<!--矩形7-->
+	<rect 
+       x="345" y="320"        
+       width="60"  height="30"  
+       stroke="black"
+	   fill="none"
+       stroke-width="2"/>	
+	   
+		<!--矩形8-->
+	<rect 
+       x="480" y="320"        
+       width="60"  height="30"  
+       stroke="black"
+	   fill="none"
+       stroke-width="2"/>	
+	   
+	<!--连接线1.1-->
+	<line x1="305" y1="32" 
+        x2="60" y2="80"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线1.2-->
+	<line x1="305" y1="32" 
+        x2="150" y2="80" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线1.3-->
+	<line x1="305" y1="32" 
+        x2="265" y2="80"
+        stroke="black"    
+        stroke-width="2"/>
+	
+    <!--连接线1.4-->	
+	<line x1="305" y1="32" 
+        x2="408" y2="80" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线1.5-->
+	<line x1="305" y1="32" 
+        x2="540" y2="80"
+        stroke="black"    
+        stroke-width="2"/>
+	
+	<!--连接线2.1-->
+	<line x1="60" y1="100" 
+        x2="60" y2="150" 
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线2.2-->
+	<line x1="150" y1="100" 
+        x2="150" y2="150"
+        stroke="black"    
+        stroke-width="2"/>
+	
+	<!--连接线2.3-->
+	<line x1="265" y1="100" 
+        x2="230" y2="150"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线2.4-->
+	<line x1="265" y1="100" 
+        x2="300" y2="150"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线2.5-->
+	<line x1="405" y1="100" 
+        x2="375" y2="150"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线2.6-->
+	<line x1="405" y1="100" 
+        x2="440" y2="150"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线2.7-->
+	<line x1="540" y1="100" 
+        x2="540" y2="150"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线3.1-->
+	<line x1="375" y1="180" 
+        x2="375" y2="230"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线3.2-->
+	<line x1="440" y1="180" 
+        x2="440" y2="230"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线3.3-->
+	<line x1="540" y1="180" 
+        x2="510" y2="230"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线3.4-->
+	<line x1="540" y1="180" 
+        x2="575" y2="230"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线4.1-->
+	<line x1="510" y1="260" 
+        x2="510" y2="320"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--连接线4.2-->
+	<line x1="375" y1="260" 
+        x2="375" y2="320"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<!--节点12-->
+	<!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M110,270 A15,15 0 0,0 110,300" 
+        fill="none" stroke="black" stroke-width="2"/>
+  
+    <!-- 开口向右的半圆弧（左侧半圆） -->
+  <path d="M190,270 A15,15 0 0,1 190,300" 
+        fill="none" stroke="black" stroke-width="2"/>
+		
+	<line x1="110" y1="270" 
+        x2="190" y2="270"
+        stroke="black"    
+        stroke-width="2"/>
+		
+	<line x1="110" y1="300" 
+        x2="190" y2="300" 
+        stroke="black"    
+        stroke-width="2"/>-->
+		
+		
+	<!--矩形9-->
+	<rect 
+       x="90" y="320"        
+       width="125"  height="30"  
+       stroke="black"
+	   fill="none"
+       stroke-width="2"/>	
+	   
+	   
+	<!-- 添加文本1.1 -->
+    <text 
+    x="305" y="25"        
+    text-anchor="middle"  
+    font-size="24" 
+    fill="black">/</text>
+	
+	<!-- 添加文本2.1 -->
+    <text 
+    x="60" y="95"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">bin</text>
+	
+	<!-- 添加文本2.2 -->
+    <text 
+    x="150" y="95"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">boot</text>
+	
+	<!-- 添加文本2.3-->
+    <text 
+    x="265" y="95"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">etc</text>
+	
+	
+	<!-- 添加文本2.4 -->
+    <text 
+    x="405" y="95"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">home</text>
+	
+	<!-- 添加文本2.5 -->
+    <text 
+    x="540" y="95"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">usr</text>
+	
+	<!-- 添加文本3.1 -->
+    <text 
+    x="60" y="173"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">bash</text>
+	
+	<!-- 添加文本3.2 -->
+    <text 
+    x="150" y="173"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">vmlinuz</text>
+	
+	<!-- 添加文本3.3 -->
+    <text 
+    x="230" y="173"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">group</text>
+	
+	<!-- 添加文本3.4 -->
+    <text 
+    x="300" y="173"        
+    text-anchor="middle"  
+    font-size="13" 
+    fill="black">passwd</text>
+	
+	<!-- 添加文本 3.5-->
+    <text 
+    x="375" y="173"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">avr</text>
+	
+	<!-- 添加文本3.6 -->
+    <text 
+    x="440" y="173"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">mtk</text>
+	
+	<!-- 添加文本3.7 -->
+    <text 
+    x="540" y="173"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">include</text>
+	
+	<!-- 添加文本4.1 -->
+    <text 
+    x="375" y="251"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">java</text>
+	
+	<!-- 添加文本4.2 -->
+    <text 
+    x="440" y="251"        
+    text-anchor="middle"  
+    font-size="14" 
+    fill="black">.bashrc</text>
+	
+	<!-- 添加文本4.3 -->
+    <text 
+    x="510" y="251"        
+    text-anchor="middle"  
+    font-size="18" 
+    fill="black">sys</text>
+	
+	<!-- 添加文本4.4 -->
+    <text 
+    x="575" y="251"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">stdio.h</text>
+	
+	<!-- 添加文本5.1 -->
+    <text 
+    x="375" y="343"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">Go.java</text>
+	
+	<!-- 添加文本5.2 -->
+    <text 
+    x="510" y="343"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">types.h</text>
+	
+	<!-- 添加文本6.1 -->
+    <text 
+    x="150" y="290"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">directory</text>
+	
+	<!-- 添加文本6.2 -->
+    <text 
+    x="150" y="340"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">regular file</text>
+	
+
+</svg>
+
+</svg>

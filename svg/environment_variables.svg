@@ -1,0 +1,199 @@
+<svg version="1.1" width="600" height="250" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+    <!--矩形1-->
+	<rect 
+       x="100" y="30"        
+       width="60"  height="35"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+    
+    <!--矩形2-->
+	<rect 
+       x="210" y="30"        
+       width="60"  height="35"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+   
+    <!--矩形3-->
+	<rect 
+       x="210" y="65"        
+       width="60"  height="35"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+
+    <!--矩形4-->
+	<rect 
+       x="210" y="100"        
+       width="60"  height="35"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+
+    <!--矩形5-->
+	<rect 
+       x="210" y="135"        
+       width="60"  height="35"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+
+    <!--矩形6-->
+	<rect 
+       x="210" y="170"        
+       width="60"  height="35"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+	   
+	<!--矩形7-->
+	<rect 
+       x="210" y="205"        
+       width="60"  height="35"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+	   
+	<!--矩形8-->
+	<rect 
+       x="330" y="37.5"        
+       width="90"  height="20"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+
+	<!--矩形9-->
+	<rect 
+       x="330" y="72.5"        
+       width="100"  height="20"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+
+	<!--矩形10-->
+	<rect 
+       x="330" y="107.5"        
+       width="105"  height="20"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+
+	<!--矩形11-->
+	<rect 
+       x="330" y="142.5"        
+       width="180"  height="20"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+
+    <!--矩形12-->
+	
+	<rect 
+       x="330" y="177.5"        
+       width="80"  height="20"  
+       stroke="black"
+	   fill="none"
+       stroke-width="1.5"/>
+	   
+	   
+	   
+	<line x1="140" y1="48" 
+        x2="190" y2="48" 
+        stroke="black"    
+        stroke-width="1.5"/>
+	   
+	<line x1="250" y1="48" 
+        x2="310" y2="48" 
+        stroke="black"    
+        stroke-width="1.5"/>
+	   
+	<line x1="250" y1="83" 
+        x2="310" y2="83" 
+        stroke="black"    
+        stroke-width="1.5"/>
+
+	<line x1="250" y1="118" 
+        x2="310" y2="118" 
+        stroke="black"    
+        stroke-width="1.5"/>
+		
+	<line x1="250" y1="153" 
+        x2="310" y2="153" 
+        stroke="black"    
+        stroke-width="1.5"/>
+
+	<line x1="250" y1="188" 
+        x2="310" y2="188" 
+        stroke="black"    
+        stroke-width="1.5"/>
+		
+	<!--三角形1-->	
+    <polygon points="190,43 200,48 190,53" />
+	
+	<!--三角形2-->	
+    <polygon points="310,43 320,48 310,53" />
+	
+	<!--三角形3-->	
+    <polygon points="310,78 320,83 310,88" />
+	
+	<!--三角形4-->	
+    <polygon points="310,113 320,118 310,123" />
+	
+	<!--三角形5-->	
+    <polygon points="310,148 320,153 310,158" />
+	
+	<!--三角形6-->	
+    <polygon points="310,183 320,188 310,193" />
+	
+	<!-- 添加文本1 -->
+    <text 
+    x="130" y="25"        
+    text-anchor="middle"  
+    font-size="15" 
+    fill="black">environ</text>
+		
+	<!-- 添加文本2 -->
+    <text 
+    x="375" y="55"        
+    text-anchor="middle"  
+    font-size="10" 
+    fill="black">LOGNAME=mtk\0</text>
+	
+	<!-- 添加文本3 -->
+    <text 
+    x="380" y="90"        
+    text-anchor="middle"  
+    font-size="10" 
+    fill="black">SHELL=/bin/bash\0</text>
+	
+	<!-- 添加文本4 -->
+    <text 
+    x="383" y="125"        
+    text-anchor="middle"  
+    font-size="10" 
+    fill="black">HOME=/home/mtk\0</text>
+	
+	<!-- 添加文本5 -->
+    <text 
+    x="419" y="160"        
+    text-anchor="middle"  
+    font-size="10" 
+    fill="black">PATH=/usr/local/bin:/usr/bin:/bin:.\0</text>
+	
+	<!-- 添加文本6 -->
+    <text 
+    x="369" y="195"        
+    text-anchor="middle"  
+    font-size="10" 
+    fill="black">TERM=xterm\0</text>
+	
+	<!-- 添加文本7 -->
+    <text 
+    x="240" y="235"        
+    text-anchor="middle"  
+    font-size="20" 
+    fill="black">NULL</text>
+	
