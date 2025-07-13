@@ -1,4 +1,4 @@
-<svg version="1.1" width="600" height="85" xmlns="http://www.w3.org/2000/svg" >
+<svg version="1.1" width="600" height="185" xmlns="http://www.w3.org/2000/svg" >
 <defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
 
 
@@ -43,13 +43,15 @@
 <text x="175" y="55" style="font-size:13px;font-family:'Arial'">8</text>
 <text x="195" y="55" style="font-size:13px;font-family:'Arial'">9</text>
 
+<text x="570" y="55" style="font-size:13px;font-family:'Arial'">n-1</text>
+<text x="550" y="95" style="font-size:13px;font-family:'Arial'">n-2</text>
+<text x="510" y="95" style="font-size:13px;font-family:'Arial'">n-4</text>
+<text x="530" y="55" style="font-size:13px;font-family:'Arial'">n-3</text>
+
+<path d="M 160 106 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="138" y="120" style="font-size:13px;font-family:'Arial'">one byte</text>
 <!--
 <path d="M 400 35 v 5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
-
-<text x="420" y="65" style="font-size:13px;font-family:'Microsoft Yahei UI'">一个字节</text>
-
-<text x="245" y="25" style="font-size:13px;font-family:'Arial'">X</text>
-<text x="345" y="25" style="font-size:13px;font-family:'Arial'">Y</text>
-<text x="445" y="25" style="font-size:13px;font-family:'Arial'">Z</text>
 -->
 </svg>
