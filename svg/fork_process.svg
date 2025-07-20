@@ -2,12 +2,20 @@
 <defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
 
 
-<!-- 
+<path d="M 300 30 V 45" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
 <path d="M 100 60 H 500" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
 <path d="M 300 60 v 40 H 500" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
 
 <circle cx="300" cy="60" r="3" fill="#000000" />
 
+<text x="100" y="52" style="font-size:13px;font-family:'Arial'">parent process</text>
+<text x="420" y="52" style="font-size:13px;font-family:'Arial'">parent process</text>
+<text x="420" y="92" style="font-size:13px;font-family:'Arial'">child process</text>
+
+<text x="280" y="25" style="font-size:13px;font-family:'Courier New'">fork()</text>
+
+<!-- 
 
 <path d="M 397 90 h -5 a 5 5 0 0 0 -5 5 v 10 a 5 5 0 0 1 -5 5 a 5 5 0 0 1 5 5 v 10 a 5 5 0 0 0 5 5 h 5" stroke="#000000" stroke-width="1" fill="none"/>
 

@@ -48,9 +48,15 @@
 <text x="510" y="95" style="font-size:13px;font-family:'Arial'">n-4</text>
 <text x="530" y="55" style="font-size:13px;font-family:'Arial'">n-3</text>
 
-<path d="M 160 106 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 10 105 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 230 105 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
 
-<text x="138" y="120" style="font-size:13px;font-family:'Arial'">one byte</text>
+<text x="100" y="140" style="font-size:15px;font-family:'Arial'">offset</text>
+<text x="295" y="35" style="font-size:15px;font-family:'Arial'">lenth</text>
+
+<path d="M 230 55 v -5 a 5 5 0 0 1 5 -5 h 70 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 70 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+<path d="M 10 110 v 5 a 5 5 0 0 0 5 5 h 100 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 100 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
+
 </g>
 <!--
 <path d="M 400 35 v 5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>

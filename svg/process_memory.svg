@@ -43,12 +43,18 @@
 <text x="175" y="55" style="font-size:13px;font-family:'Arial'">8</text>
 <text x="195" y="55" style="font-size:13px;font-family:'Arial'">9</text>
 
-<text x="570" y="55" style="font-size:13px;font-family:'Arial'">n-1</text>
-<text x="550" y="95" style="font-size:13px;font-family:'Arial'">n-2</text>
-<text x="510" y="95" style="font-size:13px;font-family:'Arial'">n-4</text>
-<text x="530" y="55" style="font-size:13px;font-family:'Arial'">n-3</text>
+<text x="450" y="0" style="font-size:13px;font-family:'Arial'">0xFFFFFFFFFFFFFFFF</text>
+<text x="410" y="20" style="font-size:13px;font-family:'Arial'">0xFFFFFFFFFFFFFFFD</text>
+<text x="390" y="35" style="font-size:13px;font-family:'Arial'">0xFFFFFFFFFFFFFFFC</text>
+<text x="450" y="125" style="font-size:13px;font-family:'Arial'">0xFFFFFFFFFFFFFFFE</text>
 
 <path d="M 160 106 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 580 5 V 48" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 540 25 V 48" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 520 35 V 48" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 560 106 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
 
 <text x="138" y="120" style="font-size:13px;font-family:'Arial'">one byte</text>
 </g>

@@ -1,0 +1,101 @@
+<svg version="1.1" width="600" height="360" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+
+<text x="10" y="55" style="font-size:19px;font-family:'Arial'">01010101101010101010101011101010000110101101010110010110</text>
+<path d="M 10 60 v 5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
+<path d="M 95 60 v 5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
+<path d="M 180 60 v 5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
+<path d="M 265 60 v 5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
+
+<path d="M 300 100 V 160" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<path d="M 50 80 v 30 H 20 V 168" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 3" marker-end="url(#arrowhead)" />
+<path d="M 135 80 v 50 H 40 V 168" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 3" marker-end="url(#arrowhead)" />
+<path d="M 220 80 v 70 H 60 V 168" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 3" marker-end="url(#arrowhead)" />
+
+<g transform="translate(0, 60)">
+<path d="M 10 120 h 580 v 20 h -580 v -20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 30 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 50 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 70 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 90 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 110 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 130 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 150 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 170 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 190 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 210 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 230 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 250 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 270 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 290 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 310 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 330 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 350 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 370 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 390 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 410 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 430 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 450 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 470 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 490 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 510 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 530 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 550 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 570 120 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+</g>
+<!--
+<g transform="translate(0, 0)">
+<path d="M 502 20 h 5 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 10 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+</g>
+<path d="M 30 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 50 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 70 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 90 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 110 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 130 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 150 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 170 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 190 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 210 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 230 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 250 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 270 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 290 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 310 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 330 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 350 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 370 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 390 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 410 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 430 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 450 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 470 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 490 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 510 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 530 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 550 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 570 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
+
+<text x="15" y="55" style="font-size:13px;font-family:'Arial'">0</text>
+<text x="35" y="55" style="font-size:13px;font-family:'Arial'">1</text>
+<text x="55" y="55" style="font-size:13px;font-family:'Arial'">2</text>
+<text x="75" y="55" style="font-size:13px;font-family:'Arial'">3</text>
+<text x="95" y="55" style="font-size:13px;font-family:'Arial'">4</text>
+<text x="115" y="55" style="font-size:13px;font-family:'Arial'">5</text>
+<text x="135" y="55" style="font-size:13px;font-family:'Arial'">6</text>
+<text x="155" y="55" style="font-size:13px;font-family:'Arial'">7</text>
+<text x="175" y="55" style="font-size:13px;font-family:'Arial'">8</text>
+
+<text x="570" y="55" style="font-size:13px;font-family:'Arial'">n-1</text>
+<text x="550" y="95" style="font-size:13px;font-family:'Arial'">n-2</text>
+<text x="510" y="95" style="font-size:13px;font-family:'Arial'">n-4</text>
+<text x="530" y="55" style="font-size:13px;font-family:'Arial'">n-3</text>
+
+<path d="M 160 106 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="138" y="120" style="font-size:13px;font-family:'Arial'">one byte</text>
+<path d="M 400 35 v 5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none"/>
+-->
+</svg>
