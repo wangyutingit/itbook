@@ -1,6 +1,6 @@
 \documentclass[en,hazy,blue,screen,14pt]{elegantnote}
 
-\title{GNU Debugger Quick Start}
+\title{PostgreSQL Core Technology Training}
 
 \author{Xiao Bu}
 \institute{https://cherry-creek.net}
@@ -13,22 +13,130 @@
 % logo
 \centerline{\includegraphics[width=0.5\textwidth]{ccalogo.pdf}}
 
+
 % =========================================
 \newpage
-\section{What Is Debugger?}
-\thispagestyle{empty}
-% \textcolor{red}{\bfseries Caution: This template will no longer be maintained since January 1st, 2023.}
+\section{Install PostgreSQL From Source Code}
+\centerline{\includegraphics[width=0.8\textwidth]{client_server.pdf}}
 
-% The brand new ElegantNote is redesigned on the basis of \LaTeX{} article, a more elegant note template! You can use either \hologo{pdfLaTeX} or \hologo{XeLaTeX} to compile. It is recommended that \hologo{pdfLaTeX} be used for notes in English while \hologo{XeLaTeX} be used for notes in Chinese.
+% A debugger is a program that simulates/runs another program and allows you to do the following things: 
+% \begin{itemize}
+%   \item Pause and continue its execution.
+% \end{itemize}
 
-
-A debugger is a program that simulates/runs another program and allows you to do the following things: 
+% =========================================
+\newpage
+\section{Some Fundamental Concepts}
 \begin{itemize}
-  \item Pause and continue its execution.
-  \item Set "break points" or conditions where the execution pauses so you can look at its state.
-  \item View and "watch" variable values.
-  \item Step through the program line-by-line(or instruction by instruction)
+	\item Bit and Byte
+	\item Files and Memory
+	\item Program and Process
+	\item Private Memory and Shared Memory
 \end{itemize}
+
+\centerline{\includegraphics[width=0.5\textwidth]{computer.pdf}}
+
+% =========================================
+\newpage
+\section{Computer Overview}
+\centerline{\includegraphics[width=1.0\textwidth]{hardware_software.pdf}}
+
+% =========================================
+\newpage
+\section{Bit and Byte}
+\begin{itemize}
+	\item Bit: binary digit, is the most basic unit of information. It represents a logical state with one of two possible values such as "0" and "1".
+	\item Byte: a byte is a sequence of 8 bits.
+\end{itemize}
+\centerline{\includegraphics[width=0.8\textwidth]{memory1.pdf}}
+
+% =========================================
+\newpage
+\section{The Value Range of a Byte}
+\begin{itemize}
+	\item The minimum value of a byte is 0.
+	\item The maximum value of a byte is 255.
+\end{itemize}
+\centerline{\includegraphics[width=0.8\textwidth]{byte_range.pdf}}
+
+% =========================================
+\newpage
+\section{What is File?}
+\begin{itemize}
+	\item A computer file is a collection of data on a computer storage device, primarily identified by its filename.
+	\item Files are organized into one-dimensional arrays of bytes. Any file is a sequence of bytes, nothing more and nothing less.
+\end{itemize}
+\centerline{\includegraphics[width=1.0\textwidth]{memory_model.pdf}}
+
+% =========================================
+\newpage
+\section{What is Offset?}
+\begin{itemize}
+	\item Offset within an array is an integer indicating the distance between the beginning of the object and a given element.
+	\item The concept of a distance is valid only if all elements of the object are of the same size (typically given in bytes or words).
+\end{itemize}
+\centerline{\includegraphics[width=1.0\textwidth]{file_offset.pdf}}
+
+% =========================================
+\newpage
+\section{Overview of Shared Memory in Postgres}
+\begin{itemize}
+	\item Offset within an array is an integer indicating the distance between the beginning of the object and a given element.
+\end{itemize}
+\centerline{\includegraphics[width=1.0\textwidth]{shared_memory_overview.pdf}}
+
+% =========================================
+\newpage
+\section{What is Program?}
+\begin{itemize}
+	\item A computer program is a sequence of instructions in a programming language for a computer to execute.
+	\item A computer program in its human-readable form is called source code. 
+	\item Source code may be translated to machine instructions using a compiler written for the language. The resulting file is called an executable.
+\end{itemize}
+
+\centerline{\includegraphics[width=1.0\textwidth]{source_compile.pdf}}
+
+% =========================================
+\newpage
+\section{What is Process?}
+\begin{itemize}
+	\item X.
+\end{itemize}
+\centerline{\includegraphics[width=1.0\textwidth]{process.pdf}}
+
+% =========================================
+\newpage
+\section{The Memory of a Process}
+\begin{itemize}
+	\item X.
+\end{itemize}
+\centerline{\includegraphics[width=1.0\textwidth]{process_memory.pdf}}
+
+
+% =========================================
+\newpage
+\section{How to Create a New Process?}
+\begin{itemize}
+	\item X.
+\end{itemize}
+\centerline{\includegraphics[width=1.0\textwidth]{fork_process.pdf}}
+
+
+% =========================================
+\newpage
+\section{What is X?}
+\begin{itemize}
+	\item X.
+\end{itemize}
+\centerline{\includegraphics[width=1.0\textwidth]{file_offset.pdf}}
+
+% =========================================
+\newpage
+\section{What is X?}
+\begin{itemize}
+	\item X.
+\end{itemize}
+\centerline{\includegraphics[width=1.0\textwidth]{file_offset.pdf}}
 
 % =========================================
 \newpage
