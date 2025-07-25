@@ -1,0 +1,75 @@
+<svg version="1.1" width="600" height="480" xmlns="http://www.w3.org/2000/svg" >
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
+
+<g transform="translate(0, 40)">
+<path d="M 30 30 h 540 v 334 h -540 v -334" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 30 60 h 360 v -30 h -360 v 30" stroke="#000000" stroke-width="1" fill="#EEEEEE"/>
+<path d="M 150 30 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 180 30 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 210 30 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 240 30 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 270 30 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 300 30 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 330 30 v 30" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 390 60 h 60 v -30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 450 60 h 60 v -30" stroke="#000000" stroke-width="1" fill="none"/>
+
+<path d="M 60 364 v -30 h 510" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 470 364 v -30" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 300 364 v -30" stroke="#000000" stroke-width="1" fill="none"/>
+
+
+<path d="M 225 63 v 40 H 510 V 72" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 3" marker-end="url(#arrowhead)" />
+<path d="M 255 27 v -20 H 20 V 400 H 60 V 379" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 3" marker-end="url(#arrowhead)" />
+<path d="M 285 27 v -20 H 580 V 400 H 470 V 379" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 3" marker-end="url(#arrowhead)" />
+
+<path d="M 420 63 v 120 L 300 250 V 320" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 3" marker-end="url(#arrowhead)" />
+<path d="M 480 63 v 70 L 60 250 V 320" stroke="#000000" stroke-width="1" fill="none" stroke-dasharray="3 3" marker-end="url(#arrowhead)" />
+
+
+<text x="60" y="50" style="font-size:15px;font-family:'Courier New'">pd_lsn</text>
+<text x="260" y="95" style="font-size:15px;font-family:'Courier New'">pd_lower</text>
+<text x="160" y="-5" style="font-size:15px;font-family:'Courier New'">pd_upper</text>
+<text x="360" y="-5" style="font-size:15px;font-family:'Courier New'">pd_special</text>
+
+<text x="480" y="355" style="font-size:15px;font-family:'Arial'">special area</text>
+<text x="360" y="355" style="font-size:15px;font-family:'Arial'">tuple 1</text>
+<text x="160" y="355" style="font-size:15px;font-family:'Arial'">tuple 2</text>
+<text x="400" y="50" style="font-size:15px;font-family:'Arial'">item 1</text>
+<text x="460" y="50" style="font-size:15px;font-family:'Arial'">item 2</text>
+<text x="160" y="50" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="190" y="50" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="220" y="50" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="250" y="50" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="280" y="50" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="310" y="50" style="font-size:15px;font-family:'Arial'">2</text>
+<text x="350" y="50" style="font-size:15px;font-family:'Arial'">4</text>
+
+<text x="380" y="250" style="font-size:19px;font-family:'Arial'">free space</text>
+<text x="120" y="150" style="font-size:19px;font-family:'Arial'">free space</text>
+
+</g>
+<!-- 
+<path d="M 100 60 H 500" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+<path d="M 470 369 v 5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
+
+<circle cx="300" cy="60" r="3" fill="#000000" />
+
+
+<path d="M 397 90 h -5 a 5 5 0 0 0 -5 5 v 10 a 5 5 0 0 1 -5 5 a 5 5 0 0 1 5 5 v 10 a 5 5 0 0 0 5 5 h 5" stroke="#000000" stroke-width="1" fill="none"/>
+
+
+<path d="M 502 20 h 5 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 10 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
+<path d="M 20 38 v -5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
+</g>
+
+<path d="M 0 5 a 5 5 0 0 1 5 -5 h 52 a 5 5 0 0 1 5 5 v 90 a 5 5 0 0 1 -5 5 h -52 a 5 5 0 0 1 -5 -5 v -90" stroke="#0000FF" stroke-width="1" fill="none" />
+
+
+
+<path d="M 160 106 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
+
+<text x="138" y="120" style="font-size:13px;font-family:'Arial'">one byte</text>
+-->
+</svg>
