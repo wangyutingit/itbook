@@ -26,6 +26,77 @@
 
 % =========================================
 \newpage
+\section{The Architecture of PostgreSQL}
+\centerline{\includegraphics[width=0.8\textwidth]{postgres_architecture.pdf}}
+
+% =========================================
+\newpage
+\section{The Architecture of PostgreSQL}
+\begin{itemize}
+  \item \textbf{File}: open/read/write/close/fsync
+  \item \textbf{Process}: fork
+  \item \textbf{Memory}: malloc/free, mmap/munmap
+\end{itemize}
+
+% =========================================
+\newpage
+\section{What is Datbase Cluster?}
+
+A database cluster is a collection of databases that is managed by a single database instance of a database server. It is a single directory in the filesystem. All data will be stored under this directory.
+
+\begin{itemize}
+  \item You can use 'initdb' to create a new database cluster. After initialization, a new database cluster has three databases.
+  \item postgres is the system database.
+  \item template 0 and template1 are two template databases that are used to create new database subsequently.
+  \item The above 3 databases should not be used for actual work. Please create a new database for the application after the database cluster is created.
+  \item A database is a collection of tables, indexes, schemas and other database objects.
+\end{itemize}
+
+\centerline{\includegraphics[width=0.18\textwidth]{database-interconnected-svgrepo-com.pdf}}
+
+% =========================================
+\newpage
+\section{What is Datbase Instance?}
+
+A database instance is a database cluster and a collection of background processes managing this database cluster. It is the core component that handles client connections, queries and transactions.
+
+% =========================================
+\newpage
+\section{PostgreSQL Process Summary}
+\begin{enumerate}[label=\arabic*).]
+	\item \textbf{main process}\\
+    		\textit{postmaster}
+	\item \textbf{background processes}\\
+		\textit{checkpointer}, \textit{background writer}, \textit{walwriter}, etc.
+	\item \textbf{backend process}\\
+	  \textit{postgres}, one process per connection.
+	\item \textbf{client process}\\
+	  \textit{psql}, \textit{pg\_dump}, etc.
+\end{enumerate}
+
+% =========================================
+\newpage
+\section{Shared and Private Memory in PostgreSQL}
+\centerline{\includegraphics[width=1.0\textwidth]{pg_shared_private_memory.pdf}}
+
+% =========================================
+\newpage
+\section{Shared Buffers}
+\centerline{\includegraphics[width=1.0\textwidth]{pg_shared_buffers.pdf}}
+
+% =========================================
+\newpage
+\section{Database Layout}
+\centerline{\includegraphics[width=1.0\textwidth]{pg_database_layout.pdf}}
+
+% =========================================
+\newpage
+\section{Data Block/Page Layout}
+\centerline{\includegraphics[width=0.8\textwidth]{data_block_layout.pdf}}
+
+\iffalse
+% =========================================
+\newpage
 \section{Some Fundamental Concepts}
 \begin{itemize}
 	\item Bit and Byte
@@ -331,7 +402,7 @@ Thank \href{https://github.com/sikouhjw}{sikouhjw} and \href{https://github.com/
       \author{author 1\\ org. 1 \and author 2 \\ org. 2 }
     \end{lstlisting}
 \end{enumerate}
-
+\fi
 
 %\printbibliography[heading=bibintoc, title=\ebibname]
 
