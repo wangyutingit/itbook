@@ -1,41 +1,11 @@
 <svg version="1.1" width="600" height="360" xmlns="http://www.w3.org/2000/svg" >
 <defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" /></marker></defs>
-
-
 <path d="M 300 30 V 45" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
-
 <path d="M 100 60 H 500" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
 <path d="M 300 60 v 40 H 500" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
-
 <circle cx="300" cy="60" r="3" fill="#000000" />
-
 <text x="100" y="52" style="font-size:13px;font-family:'Arial'">parent process</text>
 <text x="420" y="52" style="font-size:13px;font-family:'Arial'">parent process</text>
 <text x="420" y="92" style="font-size:13px;font-family:'Arial'">child process</text>
-
 <text x="280" y="25" style="font-size:13px;font-family:'Courier New'">fork()</text>
-
-<!-- 
-
-<path d="M 397 90 h -5 a 5 5 0 0 0 -5 5 v 10 a 5 5 0 0 1 -5 5 a 5 5 0 0 1 5 5 v 10 a 5 5 0 0 0 5 5 h 5" stroke="#000000" stroke-width="1" fill="none"/>
-
-
-<g transform="translate(0, 0)">
-<path d="M 502 20 h 5 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 0 5 5 a 5 5 0 0 0 -5 5 v 10 a 5 5 0 0 1 -5 5 h -5" stroke="#000000" stroke-width="1" fill="none"/>
-<path d="M 20 38 v -5 a 5 5 0 0 1 5 -5 h 40 a 5 5 0 0 0 5 -5 a 5 5 0 0 0 5 5 h 40 a 5 5 0 0 1 5 5 v 5" stroke="#000000" stroke-width="1" fill="none" />
-<path d="M 30 166 v 5 a 5 5 0 0 0 5 5 h 30 a 5 5 0 0 1 5 5 a 5 5 0 0 1 5 -5 h 30 a 5 5 0 0 0 5 -5 v -5" stroke="#000000" stroke-width="1" fill="none" />
-</g>
-
-<path d="M 0 5 a 5 5 0 0 1 5 -5 h 52 a 5 5 0 0 1 5 5 v 90 a 5 5 0 0 1 -5 5 h -52 a 5 5 0 0 1 -5 -5 v -90" stroke="#0000FF" stroke-width="1" fill="none" />
-
-<path d="M 10 60 h 580 v 20 h -580 v -20" stroke="#000000" stroke-width="1" fill="none"/>
-<path d="M 30 60 v 20" stroke="#000000" stroke-width="1" fill="none"/>
-
-<text x="15" y="55" style="font-size:13px;font-family:'Arial'">0</text>
-<text x="530" y="55" style="font-size:13px;font-family:'Courier New'">n-3</text>
-
-<path d="M 160 106 V 92" stroke="#000000" stroke-width="1" fill="none" marker-end="url(#arrowhead)" />
-
-<text x="138" y="120" style="font-size:13px;font-family:'Arial'">one byte</text>
--->
 </svg>
